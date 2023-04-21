@@ -39,3 +39,7 @@ _load_settings "$HOME/.zsh/configs"
 
 # aliases
 [[ -f ~/.aliases ]] && source ~/.aliases
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
